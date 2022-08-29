@@ -1,0 +1,206 @@
+   .home{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(1, 41, 1);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .home{
+    margin: auto;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .app ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-left: 880px;
+    float: right;
+    margin-right: 35px;
+    margin-top: 0;
+    
+    /* margin-top: 30px; */
+  }
+  a{
+    color:rgb(182, 90, 90)
+  }
+  a button{
+    color:rgb(182, 90, 90)
+  }
+  a:hover{
+    color: white;
+  }
+  a:active{
+    color: red;
+  }
+  a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .text0{
+    margin-left: 60px;
+  }
+
+  .one{
+    color: brown;
+  }
+  .pic10{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+  .tit{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 12px;
+    margin-top: 20px;
+  }
+  .pic1 {
+    float: right;
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+    margin-right: 35px;
+  }
+  .text1{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .smallDiv{
+    display: flex;
+    gap: 250px;
+    margin-left: 60px;
+    text-align: center;
+  }
+  .smallDiv img{
+    width: 200px;
+    height: 200px;
+  }
+  .smallDiv h3{
+    color: brown;
+  }
+  .text2{
+    margin-top: 150px;
+    margin-left: 60px;
+  }
+  .min {
+    float: right;
+    margin-left: 60px;
+    margin-right: 35px;
+  }
+  .min input{
+    border-radius: 5px;
+    border: 1px solid brown;
+    height: 40px;
+  }
+  .min button{
+    background-color: rgb(182, 90, 90);
+    border-radius: 5px;
+    border: 1px solid brown;
+    height: 45px;
+    width: 100px;
+    text-align: center;
+  }
+  .two{
+    display: inline-flex;
+    gap: 260px;
+    margin-left: 60px;
+
+  }
+  .three{
+    display: inline-flex;
+    gap: 300px;
+    margin-left: 60px;
+  }
+  .three img{
+    height: 30px;
+  }
+  .four{
+    display: inline-flex;
+    gap: 300px;
+    margin-bottom: 100px;
+    width: 100%;
+    margin-left: 60px;
+
+  }
+  .four img{
+    height: 30px;
+  }
+  footer {
+    background: black;
+    color: white;
+    padding: 20px;
+  }
+  hr {
+    color: white;
+  }
+  .small{
+    display: inline-flex;
+    gap: 880px;
+  }
+  .small img{
+    height: 30px;
+  }
+  a:hover{
+    color: blue;
+  }
+  @media onscreen and(max-width: 600px){
+        .home{
+          font-size: large;
+          margin: 0;
+        }
+        .app ul{
+          margin-left: 0;
+          float: none;
+          width: 100%;
+        }
+        .text0{
+          margin-left: 12px;
+        }
+        .pic10{
+          margin-top: 0;
+          margin-left: 12px;
+        }
+        .tit{
+          margin-top: 0;
+        }
+        .text2{
+          margin-left: 0;
+        }
+        .text1{
+          margin-left: 0;
+        }
+        .pic1{
+          width: 200px;
+          height: 200px;
+        }
+        .pic3{
+          display: none;
+        }
+        .pic4{
+          display: none;
+        }
+        .smallDiv .pic2{
+          margin-left: 60px;
+        }
+        .smallDiv h3{
+          margin-left: 60px;
+        }
+        .smallDiv h4{
+          margin-left: 60px;
+        }
+        .text1 {
+          margin-top: 100px;
+        }
+        .text2{
+          margin-top: 20px;
+          margin-left: 10px;
+        }
+  }

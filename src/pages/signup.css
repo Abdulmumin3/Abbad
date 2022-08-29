@@ -1,0 +1,119 @@
+body{
+    background: white;
+}
+.pic9{
+    float: left;
+    width: 50%;
+}
+.signup{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sig{
+    margin-top: 300px;
+}
+.sig h2{
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+/* #first{
+    margin-left: 25%;
+    width: 100%;
+    margin-bottom: 30px;
+    height: 8%;
+    border-radius: 5px;
+    box-shadow: 0px 0.2px 5px rgb(159, 118, 118);
+}
+#email{
+    margin-left: 25%;
+    width: 100%;
+    margin-bottom: 30px;
+    height: 8%;
+    border-radius: 5px;
+    box-shadow: 0px 0.2px 5px rgb(159, 118, 118);
+}
+#pass{
+    margin-left: 25%;
+    width: 100%;
+    margin-bottom: 30px;
+    height: 8%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(159, 118, 118);
+}
+.button{
+    margin-left: 25%;
+    width: 100%;
+    margin-bottom: 30px;
+    height: 8%;
+    border-radius: 5px;
+    background: green;
+    box-shadow: 0px 0px 5px green;
+    color: rgb(170, 106, 106)
+}
+.up{
+    display: flex;
+    gap: 50%;
+}
+.set{
+    margin-left: 25%;
+}
+.are{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: blue
+}
+@media onscreen and(max-width: 600px){
+    .signup{
+        width: 600px;
+        height: 100vh;
+        border-radius: 5px;
+        font-size: small;
+        background-color: rgba(201, 153, 217, 0.476);
+    }
+    .sign{
+        margin-top: 12px;
+    }
+    .new{
+        display: none;
+    }
+    .button{
+        margin-left: 25%;
+        width: 100%;
+        margin-bottom: 20px;
+        height: 8%;
+        border-radius: 10px;
+        background: green;
+        box-shadow: 0px 0px 0px green;
+        color: rgb(170, 106, 106)
+    }
+    #first{
+        margin-left: 25%;
+        width: 100%;
+        margin-bottom: 40px;
+        height: 10%;
+        border-radius: 8px;
+        box-shadow: 0px 0px 0px rgb(159, 118, 118);
+    }
+    #pass{
+        margin-left: 25%;
+        width: 100%;
+        margin-bottom: 40px;
+        height: 10%;
+        border-radius: 8px;
+        box-shadow: 0px 0px 0px rgb(159, 118, 118);
+    }
+    #email{
+        margin-left: 25%;
+        width: 100%;
+        margin-bottom: 40px;
+        height: 8%;
+        border-radius: 10px;
+        box-shadow: 0px 0px 0px rgb(159, 118, 118);
+    }
+    .up{
+        margin-left: 12px;
+        gap: 150px;
+    }
+} */
